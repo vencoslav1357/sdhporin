@@ -10,33 +10,7 @@ const newsData = [
         mainImage: "logo.png",
         preview: "První podzimní výcvik proběhl na cvičišti...", // Krátký popis
         fullText: "Zde bude dlouhý text s kompletním popisem události...", // Plný text
-        gallery: ["vycvik_2023/foto1.png", "vycvik_2023/foto2.png", "vycvik_2023/foto1.png"] // Další fotky
-    },
-
-    {
-        date: {
-            day: 15,
-            month: 10,
-            year: 2023
-        },
-        title: "Podzimní výcvik",
-        mainImage: "logo.png",
-        preview: "První podzimní výcvik proběhl na cvičišti...", // Krátký popis
-        fullText: "Zde bude dlouhý text s kompletním popisem události...", // Plný text
-        gallery: ["vycvik_2023/foto1.png", "vycvik_2023/foto2.png", "vycvik_2023/foto1.png"] // Další fotky
-    },
-
-    {
-        date: {
-            day: 15,
-            month: 10,
-            year: 2023
-        },
-        title: "Podzimní výcvik",
-        mainImage: "logo.png",
-        preview: "První podzimní výcvik proběhl na cvičišti...", // Krátký popis
-        fullText: "Zde bude dlouhý text s kompletním popisem události...", // Plný text
-        gallery: ["vycvik_2023/foto1.png", "vycvik_2023/foto2.png", "vycvik_2023/foto1.png"] // Další fotky
+        gallery: ["vycvik_2023/foto1.png", "vycvik_2023/sdh_examplephoto.jpeg"] // Další fotky
     },
     // ...další zprávy
 ];
@@ -45,48 +19,12 @@ const newsData = [
 const eventsData = [
     {
         date: {
-            day: 12,
-            month: 11,
-            year: 2023
-        },
-        title: "Prezentace pro rodiče",
-        text: "Zveme všechny rodiče na prezentaci činnosti kroužku"
-    },
-    {
-        date: {
-            day: 12,
-            month: 11,
-            year: 2023
-        },
-        title: "Prezentace pro rodiče",
-        text: "Zveme všechny rodiče na prezentaci činnosti kroužku"
-    },
-    {
-        date: {
-            day: 11,
-            month: 11,
-            year: 2023
-        },
-        title: "Prezentace pro rodiče",
-        text: "Zveme všechny rodiče na prezentaci činnosti kroužku"
-    },
-    {
-        date: {
-            day: 12,
-            month: 11,
-            year: 2023
-        },
-        title: "Prezentace pro rodiče",
-        text: "Zveme všechny rodiče na prezentaci činnosti kroužku"
-    },
-    {
-        date: {
-            day: 2,
-            month: 12,
+            day: 30,
+            month: 8,
             year: 2025
         },
-        title: "priklad",
-        text: "ahoj"
+        title: "Pouť",
+        text: "Tradiční pouť pořádaná v obci Pořín. (testovací text)",
     },
     // Přidat další akce zde
 ];

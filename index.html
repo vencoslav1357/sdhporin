@@ -9,6 +9,7 @@
             box-sizing: border-box;
             margin: 0;
             padding: 0;
+            -webkit-tap-highlight-color: transparent; /* Vypne modré blikání na mobilech */
         }
 
         body {
@@ -155,6 +156,8 @@
             border-width: 1px;
             cursor: pointer;
             border-radius: 10px;
+            -webkit-tap-highlight-color: transparent; /* Vypne modré blikání */
+            user-select: none; /* Zabráni označování textu při dotyku */
         }
 
         .news-card img {
@@ -216,6 +219,8 @@
             object-fit: cover;
             border-radius: 5px;
             cursor: pointer;
+            -webkit-tap-highlight-color: transparent; /* Vypne modré blikání */
+            user-select: none; /* Zabráni označování při dotyku */
         }
         
         .news-preview {

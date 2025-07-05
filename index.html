@@ -447,9 +447,8 @@
             });
         }
 
-        function formatEventDate(dateString) {
-            const date = new Date(dateString);
-            return `${date.getDate()}. ${date.getMonth() + 1}. ${date.getFullYear()}`;
+        function formatDate(dateObj) {
+            return `${dateObj.day}. ${dateObj.month}. ${dateObj.year}`;
         }
 
         function renderEvents() {
@@ -457,7 +456,7 @@
             container.innerHTML = eventsData.map(item => `
                 <div class="event-item">
                     <h3>${item.title}</h3>
-                    <small>${formatEventDate(item.date)}</small>
+                    <small>${formatDate(item.date)}</small>
                     <p>${item.text}</p>
                 </div>
             `).join('');

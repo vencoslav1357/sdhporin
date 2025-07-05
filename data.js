@@ -44,27 +44,47 @@ const newsData = [
 // Data pro akce
 const eventsData = [
     {
-        date: "2023-11-12",
+        date: {
+            day: 12,
+            month: 11,
+            year: 2023
+        },
         title: "Prezentace pro rodiče",
         text: "Zveme všechny rodiče na prezentaci činnosti kroužku"
     },
     {
-        date: "2023-11-12",
+        date: {
+            day: 12,
+            month: 11,
+            year: 2023
+        },
         title: "Prezentace pro rodiče",
         text: "Zveme všechny rodiče na prezentaci činnosti kroužku"
     },
     {
-        date: "2023-11-11",
+        date: {
+            day: 11,
+            month: 11,
+            year: 2023
+        },
         title: "Prezentace pro rodiče",
         text: "Zveme všechny rodiče na prezentaci činnosti kroužku"
     },
     {
-        date: "2023-11-12",
+        date: {
+            day: 12,
+            month: 11,
+            year: 2023
+        },
         title: "Prezentace pro rodiče",
         text: "Zveme všechny rodiče na prezentaci činnosti kroužku"
     },
     {
-        date: "2025-12-2",
+        date: {
+            day: 2,
+            month: 12,
+            year: 2025
+        },
         title: "priklad",
         text: "ahoj"
     },

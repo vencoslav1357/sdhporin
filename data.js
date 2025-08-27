@@ -49,5 +49,15 @@ const eventsData = [
         title: "TEST",
         text: "kjasdhkjsahkjdha",
     },
+
+    
+        date: {
+            day: 1,
+            month: 7,
+            year: 2025
+        },
+        title: "Soutez v Porine",
+        text: "Soutez v Porine probehla fantasticky. Piti a jidla bylo hodne",
+    },
     // Přidat další akce zde
 ];

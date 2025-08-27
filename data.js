@@ -12,6 +12,19 @@ const newsData = [
         fullText: "Zde bude dlouhý text s kompletním popisem události...", // Plný text
         gallery: ["vycvik_2023/foto1.png", "vycvik_2023/sdh_examplephoto.jpeg"] // Další fotky
     },
+
+{
+        date: {
+            day: 15,
+            month: 10,
+            year: 2023
+        },
+        title: "Podzimní výcvik",
+        mainImage: "logo.png",
+        preview: "Test", // Krátký popis
+        fullText: "", // Plný text
+        gallery: ["vycvik_2023/foto1.png", "vycvik_2023/sdh_examplephoto.jpeg"] // Další fotky
+    },
     // ...další zprávy
 ];
 
@@ -25,6 +38,16 @@ const eventsData = [
         },
         title: "Pouť",
         text: "Tradiční pouť pořádaná v obci Pořín. (testovací text)",
+    },
+
+    {
+        date: {
+            day: 15,
+            month: 5,
+            year: 2026
+        },
+        title: "TEST",
+        text: "kjasdhkjsahkjdha",
     },
     // Přidat další akce zde
 ];

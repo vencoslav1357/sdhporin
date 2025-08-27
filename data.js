@@ -19,10 +19,10 @@ const newsData = [
         month: 7,
         year: 2025
     },
-    title: "Soutěž v Novém Městě",
+    title: "Soutěž v Poříně",
     mainImage: "Pavel/soutez-porin/Soutez3.jpg",
     preview: "", // Krátký popis
-    fullText: "Soutěž v Novém Městě proběhla skvěle. Bylo hodně pití a jídla i zábavy.", // Plný text
+    fullText: "Soutěž v Poříně proběhla skvěle. Bylo hodně pití a jídla i zábavy.", // Plný text
     gallery: ["Pavel/soutez-porin/Soutez2.jpg",]
 },
     

@@ -13,18 +13,20 @@ const newsData = [
         gallery: ["vycvik_2023/foto1.png", "vycvik_2023/sdh_examplephoto.jpeg"] // Další fotky
     },
 
-{
+
     date: {
         day: 1,
         month: 7,
         year: 2025
     },
-    title: "Soutěž v Poříně",
-    mainImage: "vycvik/Soutez Porin.heic",
+    title: "Soutěž v Novém Městě",
+    mainImage: "Pavel/soutez-porin/Soutez3.jpg",
     preview: "", // Krátký popis
-    fullText: "Soutěž v Poříně proběhla fantasticky. Bylo hodně pití a jídla i radosti.", // Plný text
-    gallery: ["vycvik/IMG_3723.heic", "vycvik/IMG_3724.heic"]
-},
+    fullText: "Soutěž v Novém Městě proběhla skvěle. Bylo hodně pití a jídla i zábavy.", // Plný text
+    gallery: [
+        "pavel/soutez-porin/Soutez2.jpg"
+    ]
+}
     
     {
         date: {

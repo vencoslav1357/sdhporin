@@ -45,7 +45,6 @@ const newsData = [
 
 
 
-
 // Data pro akce
 const eventsData = [
     {
@@ -59,8 +58,6 @@ const eventsData = [
     },
 
    
-
-
     {
         date: {
             day: 7,
@@ -68,7 +65,7 @@ const eventsData = [
             year: 2026
         },
         title: "Tradiční hasičský ples",
-        text: "Zveme Vás srdečně na náš tradiční ples, který se bude konat v naší hospůdce na sále. Těšíme se na Vás! :)",
+        text: "Srdečně Vás zveme na náš tradiční ples, který se bude konat v naší pořínské hospůdce na sále. Těšíme se na Vás! :)",
     },
     // Přidat další akce zde
 ];

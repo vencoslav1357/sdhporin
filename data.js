@@ -45,10 +45,10 @@ const newsData = [
             year: 2025
         },
         title: "",
-        mainImage: "terka/logo.png",
+        mainImage: "terka/pes.jpeg",
         preview: "Test", // Krátký popis
         fullText: "", // Plný text
-        gallery: ["terka/wat.png", "vycvik_2023/sdh_examplephoto.jpeg"] // Další fotky
+        gallery: [] // Další fotky
     },
 
 

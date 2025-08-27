@@ -20,7 +20,7 @@ const newsData = [
         year: 2025
     },
     title: "Soutěž v Poříně",
-    mainImage: "images/vycvik/Soutez Porin.heic",
+    mainImage: "vycvik/Soutez Porin.heic",
     preview: "", // Krátký popis
     fullText: "Soutěž v Poříně proběhla fantasticky. Bylo hodně pití a jídla i radosti.", // Plný text
     gallery: ["vycvik/IMG_3723.heic", "vycvik/IMG_3724.heic"]

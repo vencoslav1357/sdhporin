@@ -23,9 +23,7 @@ const newsData = [
     mainImage: "Pavel/soutez-porin/Soutez3.jpg",
     preview: "", // Krátký popis
     fullText: "Soutěž v Novém Městě proběhla skvěle. Bylo hodně pití a jídla i zábavy.", // Plný text
-    gallery: [
-        "pavel/soutez-porin/Soutez2.jpg"
-    ]
+    gallery: ["Pavel/soutez-porin/Soutez2.jpg",]
 },
     
     {

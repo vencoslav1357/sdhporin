@@ -38,7 +38,18 @@ const newsData = [
         fullText: "", // Plný text
         gallery: ["vycvik_2023/foto1.png", "vycvik_2023/sdh_examplephoto.jpeg"] // Další fotky
     },
-
+{
+        date: {
+            day: 1,
+            month: 7,
+            year: 2025
+        },
+        title: "",
+        mainImage: "terka/logo.png",
+        preview: "Test", // Krátký popis
+        fullText: "", // Plný text
+        gallery: ["terka/wat.png", "vycvik_2023/sdh_examplephoto.jpeg"] // Další fotky
+    },
 
 
 ];

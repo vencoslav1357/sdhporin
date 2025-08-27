@@ -26,7 +26,33 @@ const newsData = [
         gallery: ["vycvik_2023/foto1.png", "vycvik_2023/sdh_examplephoto.jpeg"] // Další fotky
     },
     // ...další zprávy
+    {
+        date: {
+            day: 1,
+            month: 7,
+            year: 2025
+        },
+        title: "",
+        mainImage: "logo.png",
+        preview: "Test", // Krátký popis
+        fullText: "", // Plný text
+        gallery: ["vycvik_2023/foto1.png", "vycvik_2023/sdh_examplephoto.jpeg"] // Další fotky
+    },
+
+
+
 ];
+
+
+
+
+
+
+
+
+
+
+
 
 // Data pro akce
 const eventsData = [

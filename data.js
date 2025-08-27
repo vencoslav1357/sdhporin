@@ -13,7 +13,7 @@ const newsData = [
         gallery: ["vycvik_2023/foto1.png", "vycvik_2023/sdh_examplephoto.jpeg"] // Další fotky
     },
 
-
+{
     date: {
         day: 1,
         month: 7,
@@ -26,7 +26,7 @@ const newsData = [
     gallery: [
         "pavel/soutez-porin/Soutez2.jpg"
     ]
-}
+},
     
     {
         date: {

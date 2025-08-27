@@ -58,35 +58,17 @@ const eventsData = [
         text: "Tradiční pouť pořádaná v obci Pořín. (testovací text)",
     },
 
+   
+
+
     {
         date: {
-            day: 15,
-            month: 5,
+            day: 7,
+            month: 2,
             year: 2026
         },
-        title: "TEST",
-        text: "kjasdhkjsahkjdha",
-    },
-    
-
-    {
-        date: {
-            day: 1,
-            month: 7,
-            year: 2025
-        },
-        title: "Soutez v Porine",
-        text: "Soutez v Porine probehla fantasticky. Piti a jidla bylo hodne",
-    },
-
-    {
-        date: {
-            day: 1,
-            month: 7,
-            year: 2025
-        },
-        title: "Soutez v Porine od terky",
-        text: "Soutez v Porine probehla fantasticky. Piti a jidla bylo hodne",
+        title: "Tradiční hasičský ples",
+        text: "Zveme Vás srdečně na náš tradiční ples, který se bude konat v naší hospůdce na sále. Těšíme se na Vás! :)",
     },
     // Přidat další akce zde
 ];

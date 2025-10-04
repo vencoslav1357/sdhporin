@@ -15,29 +15,16 @@ const newsData = [
 
 {
     date: {
-        day: 1,
-        month: 7,
+        day: 4,
+        month: 10,
         year: 2025
     },
-    title: "Soutěž v Poříně",
-    mainImage: "Pavel/soutez-porin/Soutez3.jpg",
+    title: "Podzimní plamen v Ústrašicích"
+    mainImage: "",
     preview: "", // Krátký popis
-    fullText: "Soutěž v Poříně proběhla skvěle. Bylo hodně pití a jídla i zábavy.", // Plný text
-    gallery: ["Pavel/soutez-porin/Soutez2.jpg"]
+    fullText: "Týmy byly moc šikovné a bojovné. Nejlépe se umístila přípravka, která vybojovala krásné 1. místo. Mladší se umístili na 9. místě a starší na 18. místě.", // Plný text
+    gallery: [""]
 },
-    
-    {
-        date: {
-            day: 1,
-            month: 7,
-            year: 2025
-        },
-        title: "",
-        mainImage: "terka/pes.jpeg",
-        preview: "Test", // Krátký popis
-        fullText: "", // Plný text
-        gallery: [] // Další fotky
-    },
 
 
 ];

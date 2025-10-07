@@ -188,6 +188,11 @@
             overflow: hidden;
             transition: max-height 0.3s ease-out;
             opacity: 0;
+            padding-left: 10px;
+        }
+
+        .news-info {
+            padding-left: 10px;
         }
 
         .news-card.expanded {
@@ -531,9 +536,11 @@
                 <div class="news-card" data-index="${index}">
                     <div class="news-preview">
                         <img src="images/${item.mainImage}" alt="${item.title}">
-                        <h3>${item.title}</h3>
-                        <small>${formatDate(item.date)}</small>
-                        <p>${item.preview}</p>
+                        <div class="news-info">
+                            <h3>${item.title}</h3>
+                            <small>${formatDate(item.date)}</small>
+                            <p>${item.preview}</p>
+                        </div>
                     </div>
                     <div class="news-content">
                         <p>${item.fullText}</p>

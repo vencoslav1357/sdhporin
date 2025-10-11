@@ -22,7 +22,7 @@ const newsData = [
     title: "Podzimní plamen v Ústrašicích",
     mainImage: "terka/plamen1.jpeg",
     preview: "", // Krátký popis
-    fullText: "Týmy byly moc šikovné a bojovné. Nejlépe se umístila přípravka, která vybojovala krásné 1. místo. Mladší se umístili na 9. místě a starší na 18. místě.", // Plný text
+    fullText: "Děti byly moc šikovné. Nejlépe se umístila přípravka, která vybojovala krásné 1. místo. Mladší se umístili na 9. místě z 34 týmů a starší na místě 18. z 28 týmů.", // Plný text
     gallery: ["terka/plamen2.jpeg"]
 },
 

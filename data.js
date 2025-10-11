@@ -20,10 +20,10 @@ const newsData = [
         year: 2025
     },
     title: "Podzimní plamen v Ústrašicích",
-    mainImage: "terka/pes.jpeg",
+    mainImage: "terka/plamen1.jpeg",
     preview: "", // Krátký popis
     fullText: "Týmy byly moc šikovné a bojovné. Nejlépe se umístila přípravka, která vybojovala krásné 1. místo. Mladší se umístili na 9. místě a starší na 18. místě.", // Plný text
-    gallery: ["terka/pes.jpeg"]
+    gallery: ["terka/plamen2.jpeg"]
 },
 
 
@@ -52,7 +52,7 @@ const eventsData = [
             year: 2026
         },
         title: "Tradiční hasičský ples",
-        text: "Srdečně Vás zveme na náš tradiční ples, který se bude konat v naší pořínské hospůdce na sále. Těšíme se na Vás! :)",
+        text: "Srdečně Vás zveme na náš ples, který se bude konat v naší pořínské hospůdce na sále. Těšíme se na Vás! :)",
     },
     // Přidat další akce zde
 ];

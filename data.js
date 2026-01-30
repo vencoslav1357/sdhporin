@@ -62,9 +62,9 @@ const eventsData = [
             year: 2026
         },
         title: "Masopust",
-        text: `Sraz masek ve 12.00 hod v Pořínské hospodě.
-               V průvodu nás doprovodí skvělá muzika, která zahraje a zazpívá na přání u každého domu. 
-               Těšíme se na vás!`,
+        text: "Sraz masek ve 12.00 hod v Pořínské hospodě",
+               "V průvodu nás doprovodí skvělá muzika, která zahraje a zazpívá na přání u každého domu. 
+               Těšíme se na Vás!",
     },
     // Přidat další akce zde
 ];

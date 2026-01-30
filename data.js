@@ -55,11 +55,13 @@ const eventsData = [
         text: "Srdečně Vás zveme na náš ples, který se bude konat 7. února v naší pořínské hospodě na sále. Těšíme se na Vás! :)",
     },
 
-     {
+  {
     date: { day: 14, month: 2, year: 2026 },
     title: "Masopust",
-    subtitle: "Sraz masek ve 12.00 hod v Pořínské hospodě",
-    text: "V průvodu nás doprovodí skvělá muzika, která zahraje a zazpívá na přání u každého domu. Těšíme se na Vás!",
+    text: `Sraz masek ve 12.00 hod v Pořínské hospodě.
+
+V průvodu nás doprovodí skvělá muzika, která zahraje a zazpívá na přání u každého domu.
+Těšíme se na Vás!`,
 },
     // Přidat další akce zde
 ];

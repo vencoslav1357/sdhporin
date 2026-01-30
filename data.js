@@ -63,5 +63,14 @@ const eventsData = [
 V průvodu nás doprovodí skvělá muzika, která zahraje a zazpívá na přání u každého domu.
 Těšíme se na Vás!`,
 },
+ {
+    date: {
+        day: 31,
+        month: 1,
+        year: 2026
+    },
+    title: "Dětský karneval",
+    text: `SDH Pořín Vás srdečně zve na dětský karneval od 14.00 hod v Pořínské hospodě. Hraje skupina Jezevci.`
+},
     // Přidat další akce zde
 ];

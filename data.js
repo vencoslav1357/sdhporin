@@ -70,7 +70,7 @@ Těšíme se na Vás!`,
         year: 2026
     },
     title: "Dětský karneval",
-    text: `SDH Pořín Vás srdečně zve na dětský karneval od 14.00 hod v Pořínské hospodě. Hraje skupina Jezevci.`
+    text: `Srdečně Vás zveme na dětský karneval od 14.00 hod v Pořínské hospodě. Hraje skupina Jezevci.`
 },
     // Přidat další akce zde
 ];

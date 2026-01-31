@@ -27,6 +27,20 @@ const newsData = [
 },
 
 
+
+{
+    date: {
+        day: 31,
+        month: 01,
+        year: 2026
+    },
+    title: "Dětský karneval",
+    mainImage: "",
+    preview: "", // Krátký popis
+    fullText: "Kapela měla super program na celé odpoledne a děti se dobře bavily.", // Plný text
+    gallery: [""]
+},
+
 ];
 
 
@@ -63,14 +77,6 @@ const eventsData = [
 V průvodu nás doprovodí skvělá muzika, která zahraje a zazpívá na přání u každého domu.
 Těšíme se na Vás!`,
 },
- {
-    date: {
-        day: 31,
-        month: 1,
-        year: 2026
-    },
-    title: "Dětský karneval",
-    text: `Srdečně Vás zveme na dětský karneval od 14.00 hod v Pořínské hospodě. Hraje skupina Jezevci.`
-},
+    
     // Přidat další akce zde
 ];

@@ -37,7 +37,7 @@ const newsData = [
     title: "Dětský karneval",
     mainImage: "terka/karneval2.jpeg",
     preview: "", // Krátký popis
-    fullText: "Kapela měla super program na celé odpoledne a děti se dobře bavily.", // Plný text
+    fullText: "Kapela měla nachystaný super program na celé odpoledne. Všechny děti se dobře bavily a byly odměněny sladkostmi.", // Plný text
     gallery: ["terka/karneval3.jpeg", "terka/karneval4.jpeg", "terka/karneval12.jpeg", "terka/karneval6.jpeg", "terka/karneval11.jpeg", "terka/karneval13.jpeg", "terka/karneval14.jpeg", "terka/karneval8.jpeg", "terka/karneval9.jpeg", "terka/karneval16.jpeg", "terka/karneval17.jpeg"]
 },
 

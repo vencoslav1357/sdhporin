@@ -22,7 +22,7 @@ const newsData = [
     title: "Podzimní plamen v Ústrašicích",
     mainImage: "terka/plamen1.jpeg",
     preview: "", // Krátký popis
-    fullText: "Děti byly moc šikovné. Nejlépe se umístila přípravka, která vybojovala krásné 1. místo. Mladší se umístili na 9. místě z 34 týmů a starší na místě 18. z 28 týmů.", // Plný text
+    fullText: "Dne 4. října 2025 jsme se zúčastnili s dětmi podzimního kola plamenu v Ústrašicích. Všechny děti byly šikovné a běh zvládly. Nejlépe se umístila přípravka, která vybojovala krásné 1. místo. Mladší se umístili na 9. místě z 34 týmů a starší na místě 18. z 28 týmů.", // Plný text
     gallery: ["terka/plamen2.jpeg"]
 },
 
@@ -31,13 +31,13 @@ const newsData = [
 {
     date: {
         day: 31,
-        month: 01,
+        month: 1,
         year: 2026
     },
     title: "Dětský karneval",
     mainImage: "terka/karneval2.jpeg",
     preview: "", // Krátký popis
-    fullText: "Kapela měla nachystaný super program na celé odpoledne. Všechny děti se dobře bavily a byly odměněny sladkostmi.", // Plný text
+    fullText: "Dne 31. ledna 2026 se uskutečnil tradiční dětský karneval. O program a zábavu na celé odpoledne se postarala kapela Jezevci. Měli jsme možnost vidět spoustu krásných kostýmů. Celé odpoledne bylo ve znamení dětské radosti a už se těšíme na příští rok.", // Plný text
     gallery: ["terka/karneval3.jpeg", "terka/karneval4.jpeg", "terka/karneval12.jpeg", "terka/karneval6.jpeg", "terka/karneval11.jpeg", "terka/karneval13.jpeg", "terka/karneval14.jpeg", "terka/karneval8.jpeg", "terka/karneval9.jpeg", "terka/karneval16.jpeg", "terka/karneval17.jpeg"]
 },
 
@@ -66,7 +66,7 @@ const eventsData = [
             year: 2026
         },
         title: "Tradiční hasičský ples",
-        text: "Srdečně Vás zveme jménem SDH Pořín na náš tradiční hasičský ples, který se bude konat 7. února v naší pořínské hospodě na sále. K poslechu a tanci zahraje KLASIK KVARTET. Těšíme se na Vás! :)",
+        text: "Srdečně Vás zveme na tradiční hasičský ples, který proběhne 7. února v naší pořínské hospodě na sále. K poslechu a tanci zahraje KLASIK KVARTET. Těšíme se na Vás! :)",
     },
 
   {

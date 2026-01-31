@@ -66,7 +66,7 @@ const eventsData = [
             year: 2026
         },
         title: "Tradiční hasičský ples",
-        text: "Srdečně Vás zveme na náš ples, který se bude konat 7. února v naší pořínské hospodě na sále. Těšíme se na Vás! :)",
+        text: "Srdečně Vás zveme jménem SDH Pořín na náš tradiční hasičský ples, který se bude konat 7. února v naší pořínské hospodě na sále. K poslechu a tanci zahraje KLASIK KVARTET. Těšíme se na Vás! :)",
     },
 
   {

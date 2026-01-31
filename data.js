@@ -35,10 +35,10 @@ const newsData = [
         year: 2026
     },
     title: "Dětský karneval",
-    mainImage: "",
+    mainImage: "terka/karneval1.jpeg",
     preview: "", // Krátký popis
     fullText: "Kapela měla super program na celé odpoledne a děti se dobře bavily.", // Plný text
-    gallery: [""]
+    gallery: ["terka/karneval2.jpeg", "terka/karneval3.jpeg", "terka/karneval4.jpeg", "terka/karneval5.jpeg", "terka/karneval6.jpeg", "terka/karneval7.jpeg", "terka/karneval8.jpeg", "terka/karneval9.jpeg",]
 },
 
 ];

@@ -19,7 +19,7 @@ const newsData = [
         month: 10,
         year: 2025
     },
-    title: "Podzimní plamen v Ústrašicích",
+    title: "Podzimní plamen",
     mainImage: "terka/plamen1.jpeg",
     preview: "", // Krátký popis
     fullText: "Dne 4. října 2025 jsme se zúčastnili s dětmi podzimního kola plamenu v Ústrašicích. Všechny děti byly šikovné a běh zvládly. Nejlépe se umístila přípravka, která vybojovala krásné 1. místo. V kategorii mladších se naši umístili, i přes početnou konkurenci 34 týmů, na 9. místě. A družstvo starších na místě 18. z celkových 28.", // Plný text

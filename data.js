@@ -37,7 +37,7 @@ const newsData = [
     title: "Dětský karneval",
     mainImage: "terka/karneval2.jpeg",
     preview: "", // Krátký popis
-    fullText: "Dne 31. ledna 2026 se uskutečnil tradiční dětský karneval. O program a zábavu na celé odpoledne se postarala kapela Jezevci. Měli jsme možnost vidět spoustu krásných kostýmů. Celé odpoledne bylo ve znamení dětské radosti a už se těšíme na příští rok.", // Plný text
+    fullText: "Poslední lednový den se uskutečnil tradiční dětský karneval. O program a zábavu na celé odpoledne se postarala kapela Jezevci. Měli jsme možnost vidět spoustu krásných kostýmů. Celé odpoledne bylo ve znamení dětské radosti a už se těšíme na příští rok.", // Plný text
     gallery: ["terka/karneval3.jpeg", "terka/karneval4.jpeg", "terka/karneval12.jpeg", "terka/karneval6.jpeg", "terka/karneval11.jpeg", "terka/karneval13.jpeg", "terka/karneval14.jpeg", "terka/karneval8.jpeg", "terka/karneval9.jpeg", "terka/karneval16.jpeg", "terka/karneval17.jpeg"]
 },
 

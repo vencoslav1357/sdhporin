@@ -1,5 +1,6 @@
 // Data pro akce
 // NÁVOD: Přidej novou akci zkopírováním bloku níže.
+//NÁVOD: Obrázky ve složce public/images
 
 export const pripravovane_akce = [
     // {

@@ -61,22 +61,16 @@ const eventsData = [
    
     {
         date: {
-            day: 7,
+            day: 14,
             month: 2,
             year: 2026
         },
-        title: "Tradiční hasičský ples",
-        text: "Srdečně Vás zveme na tradiční hasičský ples, který proběhne 7. února v naší pořínské hospodě na sále. K poslechu a tanci zahraje KLASIK KVARTET. Těšíme se na Vás! :)",
+        title: "Masopust",
+        text: "Sraz masek ve 12.00 hod v Pořínské hospodě. 
+        V průvodu nás doprovodí skvělá muzika, která zahraje a zazpívá na přání u každého domu. Těšíme se na Vás!",
     },
 
-  {
-    date: { day: 14, month: 2, year: 2026 },
-    title: "Masopust",
-    text: `Sraz masek ve 12.00 hod v Pořínské hospodě.
-
-V průvodu nás doprovodí skvělá muzika, která zahraje a zazpívá na přání u každého domu.
-Těšíme se na Vás!`,
-},
+ 
     
     // Přidat další akce zde
 ];

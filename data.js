@@ -70,6 +70,5 @@ const eventsData = [
     },
 
  
-    
     // Přidat další akce zde
 ];

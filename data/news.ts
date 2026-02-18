@@ -42,4 +42,19 @@ export const udalosti = [
         gallery: ["terka/karneval3.jpeg", "terka/karneval4.jpeg", "terka/karneval12.jpeg", "terka/karneval6.jpeg", "terka/karneval11.jpeg", "terka/karneval13.jpeg", "terka/karneval14.jpeg", "terka/karneval8.jpeg", "terka/karneval9.jpeg", "terka/karneval16.jpeg", "terka/karneval17.jpeg"]
     },
 
+
+      {
+        date: {
+            day: 14,
+            month: 2,
+            year: 2026
+        },
+        title: "Masopust",
+        mainImage: "terka/masopust1.jpeg",
+        preview: "", // Krátký popis
+        fullText: "V sobotu 14. února prošel vesnicí masopustní průvod plný originálních a nápaditých masek. Celé odpoledne nás doprovázela kapela, která zahrála u každého domu podle přání a o dobrou náladu nebyla nouze. I přes ne úplně příznivé počasí, se letošní masopust vydařil a už teď jsme zvědaví, kdo s jakou maskou překvapí příští rok.", // Plný text
+        gallery: ["terka/masopust2.jpeg", "terka/masopust3.jpeg", "terka/masopust4.jpeg", "terka/masopust5.jpeg", "terka/masopust6.jpeg", "terka/masopust7.jpeg"]
+    },
+
+    
 ];

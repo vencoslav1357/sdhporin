@@ -20,7 +20,7 @@ export const pripravovane_akce = [
             year: 2026
         },
         title: "Divadlo",
-        text: "Srdečně Vás zveme na divadelní představení Přelet nad kuřecím řízkem, které zahraje DS VOŽIVOT Mladá Vožice. Divadlo proběhne 28. února od 20 hodin v naší hospodě na sále. Těšíme se na Vaši účast!",
+        text: "Srdečně Vás zveme na divadelní hru Přelet nad kuřecím řízkem, kterou představí DS VOŽIVOT Mladá Vožice. Divadlo proběhne 28. února od 20 hodin v pořínské hospodě na sále. Těšíme se na Vaši účast!",
     },
 
     // Přidat další akce zde

@@ -15,12 +15,12 @@ export const pripravovane_akce = [
 
     {
         date: {
-            day: 14,
+            day: 28,
             month: 2,
             year: 2026
         },
-        title: "Masopust",
-        text: "Sraz masek ve 12.00 hod v Pořínské hospodě. V průvodu nás doprovodí skvělá muzika, která zahraje a zazpívá na přání u každého domu. Těšíme se na Vás!",
+        title: "Divadlo",
+        text: "Srdečně Vás zveme na divadelní představení Přelet nad kuřecím řízkem, které zahraje DS VOŽIVOT Mladá Vožice. Divadlo proběhne 28. února od 20 hodin v naší hospodě na sále. Těšíme se na Vaši účast!",
     },
 
     // Přidat další akce zde

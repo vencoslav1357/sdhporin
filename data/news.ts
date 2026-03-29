@@ -65,7 +65,7 @@ export const udalosti = [
         title: "Divadlo",
         mainImage: "terka/divadlo1.jpeg",
         preview: "", // Krátký popis
-        fullText: "Poslední únorový večer nám zpříjemnila divadelní hra, Přelet nad kuřecím řízkem, kterou představil DS VOŽIVOT Mladá Vožice. Účast byla hojná.", // Plný text
+        fullText: "Poslední únorový večer nám zpříjemnila divadelní hra, Přelet nad kuřecím řízkem, kterou představil DS VOŽIVOT Mladá Vožice. Účast byla hojná a divadlo se líbilo.", // Plný text
         gallery: ["terka/divadlo2.jpeg", "terka/divadlo3.jpeg"]
     },
 

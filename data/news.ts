@@ -56,5 +56,18 @@ export const udalosti = [
         gallery: ["terka/masopust2.jpeg", "terka/masopust3.jpeg", "terka/masopust4.jpeg", "terka/masopust5.jpeg", "terka/masopust6.jpeg", "terka/masopust7.jpeg"]
     },
 
+        {
+        date: {
+            day: 28,
+            month: 2,
+            year: 2026
+        },
+        title: "Divadlo",
+        mainImage: "terka/divadlo1.jpeg",
+        preview: "", // Krátký popis
+        fullText: "Poslední únorový večer nám zpříjemnila divadelní hra, Přelet nad kuřecím řízkem, kterou představil DS VOŽIVOT Mladá Vožice. Účast byla hojná.", // Plný text
+        gallery: ["terka/divadlo2.jpeg", "terka/divadlo3.jpeg"]
+    },
+
     
 ];

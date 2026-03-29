@@ -15,12 +15,42 @@ export const pripravovane_akce = [
 
     {
         date: {
-            day: 28,
-            month: 2,
+            day: 18,
+            month: 4,
             year: 2026
         },
-        title: "Divadlo",
-        text: "Srdečně Vás zveme na divadelní hru Přelet nad kuřecím řízkem, kterou představí DS VOŽIVOT Mladá Vožice. Divadlo proběhne 28. února od 20 hodin v pořínské hospodě na sále. Těšíme se na Vaši účast!",
+        title: "Hasičská soutěž Mašovice",
+        text: "",
+    },
+
+    {
+        date: {
+            day: 25,
+            month: 4,
+            year: 2026
+        },
+        title: "Hasičská soutěž Mladá Vožice",
+        text: "",
+    },
+
+    {
+        date: {
+            day: 23,
+            month: 5,
+            year: 2026
+        },
+        title: "Stavění máje",
+        text: "",
+    },
+    
+    {
+        date: {
+            day: 1,
+            month: 8,
+            year: 2026
+        },
+        title: "Kácení máje",
+        text: "",
     },
 
     // Přidat další akce zde

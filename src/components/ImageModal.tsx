@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useCallback } from "react";
+import Image from "next/image";
 
 interface ImageModalProps {
   images: string[];
@@ -51,15 +52,19 @@ export default function ImageModal({
 
   return (
     <div
+      role="dialog"
+      aria-modal="true"
+      aria-label="Galerie fotografií"
       className="fixed inset-0 z-[100] bg-black/95 backdrop-blur-sm flex items-center justify-center"
       onClick={onClose}
     >
       {/* Close button */}
       <button
         onClick={onClose}
+        aria-label="Zavřít galerii"
         className="absolute top-4 right-4 md:top-6 md:right-6 w-12 h-12 flex items-center justify-center rounded-full bg-white/10 hover:bg-white/20 text-white transition-all z-10"
       >
-        <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
         </svg>
       </button>
@@ -71,21 +76,29 @@ export default function ImageModal({
             e.stopPropagation();
             showPrev();
           }}
+          aria-label="Předchozí fotografie"
           className="absolute left-2 md:left-6 top-1/2 -translate-y-1/2 w-12 h-12 flex items-center justify-center rounded-full bg-white/10 hover:bg-white/20 text-white transition-all z-10"
         >
-          <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
           </svg>
         </button>
       )}
 
       {/* Image */}
-      <img
-        src={images[currentIndex]}
-        alt="Fotografie v plné velikosti"
-        className="max-w-[90vw] max-h-[85vh] object-contain rounded-lg"
+      <div
+        className="relative w-[90vw] h-[85vh]"
         onClick={(e) => e.stopPropagation()}
-      />
+      >
+        <Image
+          src={images[currentIndex]}
+          alt={`Fotografie ${currentIndex + 1} z ${images.length} – galerie SDH Pořín`}
+          fill
+          sizes="90vw"
+          className="object-contain rounded-lg"
+          priority
+        />
+      </div>
 
       {/* Next button */}
       {images.length > 1 && (
@@ -94,9 +107,10 @@ export default function ImageModal({
             e.stopPropagation();
             showNext();
           }}
+          aria-label="Další fotografie"
           className="absolute right-2 md:right-6 top-1/2 -translate-y-1/2 w-12 h-12 flex items-center justify-center rounded-full bg-white/10 hover:bg-white/20 text-white transition-all z-10"
         >
-          <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
           </svg>
         </button>

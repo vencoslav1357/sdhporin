@@ -1,11 +1,20 @@
 "use client";
 
 import { useState, useCallback } from "react";
+import Image from "next/image";
 import { udalosti } from "@data/news";
 import ImageModal from "./ImageModal";
 
+const SITE_URL = "https://sdhporin.cz";
+
 function formatDate(date: { day: number; month: number; year: number }) {
   return `${date.day}. ${date.month}. ${date.year}`;
+}
+
+function toIsoDate(date: { day: number; month: number; year: number }) {
+  const m = String(date.month).padStart(2, "0");
+  const d = String(date.day).padStart(2, "0");
+  return `${date.year}-${m}-${d}`;
 }
 
 function sortNewsByDate(news: typeof udalosti) {
@@ -23,6 +32,34 @@ export default function NewsSection() {
 
   const sortedNews = sortNewsByDate(udalosti);
 
+  const newsSchema = sortedNews.map((item) => ({
+    "@context": "https://schema.org",
+    "@type": "NewsArticle",
+    headline: item.title,
+    datePublished: toIsoDate(item.date),
+    dateModified: toIsoDate(item.date),
+    image: [`${SITE_URL}/images/${item.mainImage}`],
+    articleBody: item.fullText,
+    inLanguage: "cs-CZ",
+    author: {
+      "@type": "Organization",
+      name: "SDH Pořín",
+      url: SITE_URL,
+    },
+    publisher: {
+      "@type": "Organization",
+      name: "SDH Pořín",
+      logo: {
+        "@type": "ImageObject",
+        url: `${SITE_URL}/images/logo.png`,
+      },
+    },
+    mainEntityOfPage: {
+      "@type": "WebPage",
+      "@id": `${SITE_URL}/#udalosti`,
+    },
+  }));
+
   const handleCardClick = (index: number) => {
     setExpandedIndex(expandedIndex === index ? null : index);
   };
@@ -33,7 +70,7 @@ export default function NewsSection() {
       setModalImages(images);
       setModalIndex(clickedIndex);
     },
-    []
+    [],
   );
 
   const closeModal = useCallback(() => {
@@ -42,7 +79,17 @@ export default function NewsSection() {
   }, []);
 
   return (
-    <section id="udalosti" className="py-16 md:py-24">
+    <section
+      id="udalosti"
+      aria-labelledby="udalosti-heading"
+      className="py-16 md:py-24"
+    >
+      {sortedNews.length > 0 && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(newsSchema) }}
+        />
+      )}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Section header */}
         <div className="mb-12 md:mb-16">
@@ -52,8 +99,11 @@ export default function NewsSection() {
               Novinky
             </span>
           </div>
-          <h2 className="text-3xl md:text-5xl font-bold text-gray-900 tracking-tight">
-            Události
+          <h2
+            id="udalosti-heading"
+            className="text-3xl md:text-5xl font-bold text-gray-900 tracking-tight"
+          >
+            Aktuality a události SDH Pořín
           </h2>
         </div>
 
@@ -69,19 +119,16 @@ export default function NewsSection() {
               ...item.gallery.map((img) => `/images/${img}`),
             ];
 
+            const altMain = `${item.title} – fotografie z události SDH Pořín, ${formatDate(item.date)}`;
+
             return (
-              <div
+              <article
                 key={index}
                 onClick={() => handleCardClick(index)}
+                data-expanded={isExpanded}
                 className={`group cursor-pointer transition-all duration-500 ${
-                  isExpanded
-                    ? "md:col-span-2 lg:col-span-3"
-                    : ""
-                } ${
-                  isHidden
-                    ? "hidden"
-                    : ""
-                }`}
+                  isExpanded ? "md:col-span-2 lg:col-span-3" : ""
+                } ${isHidden ? "hidden" : ""}`}
               >
                 <div
                   className={`bg-white rounded-2xl overflow-hidden border border-gray-100 transition-[box-shadow,transform] duration-500 ${
@@ -93,17 +140,23 @@ export default function NewsSection() {
                   {!isExpanded ? (
                     /* Collapsed card */
                     <>
-                      <div className="relative overflow-hidden">
-                        <img
+                      <div className="relative w-full h-52 overflow-hidden">
+                        <Image
                           src={`/images/${item.mainImage}`}
-                          alt={item.title}
-                          className="w-full h-52 object-cover transition-transform duration-700 group-hover:scale-105"
+                          alt={altMain}
+                          fill
+                          sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
+                          className="object-cover transition-transform duration-700 group-hover:scale-105"
+                          loading="lazy"
                         />
                         <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent" />
                         <div className="absolute bottom-3 left-4">
-                          <span className="inline-flex items-center px-3 py-1 bg-white/90 backdrop-blur-sm text-xs font-medium text-gray-700 rounded-full">
+                          <time
+                            dateTime={toIsoDate(item.date)}
+                            className="inline-flex items-center px-3 py-1 bg-white/90 backdrop-blur-sm text-xs font-medium text-gray-700 rounded-full"
+                          >
                             {formatDate(item.date)}
-                          </span>
+                          </time>
                         </div>
                       </div>
                       <div className="p-5">
@@ -122,6 +175,7 @@ export default function NewsSection() {
                             fill="none"
                             viewBox="0 0 24 24"
                             stroke="currentColor"
+                            aria-hidden="true"
                           >
                             <path
                               strokeLinecap="round"
@@ -141,6 +195,7 @@ export default function NewsSection() {
                           e.stopPropagation();
                           setExpandedIndex(null);
                         }}
+                        aria-label="Zpět na přehled aktualit"
                         className="mb-6 inline-flex items-center gap-2 text-sm font-medium text-gray-500 hover:text-red-500 transition-colors"
                       >
                         <svg
@@ -148,6 +203,7 @@ export default function NewsSection() {
                           fill="none"
                           viewBox="0 0 24 24"
                           stroke="currentColor"
+                          aria-hidden="true"
                         >
                           <path
                             strokeLinecap="round"
@@ -161,19 +217,26 @@ export default function NewsSection() {
 
                       <div className="flex flex-col md:flex-row gap-6 md:gap-8">
                         <div className="md:w-1/3">
-                          <img
-                            src={`/images/${item.mainImage}`}
-                            alt={item.title}
-                            className="w-full rounded-xl object-cover cursor-zoom-in"
-                            onClick={(e) =>
-                              handleImageClick(e, allImages, 0)
-                            }
-                          />
+                          <div className="relative w-full aspect-[4/3] rounded-xl overflow-hidden cursor-zoom-in">
+                            <Image
+                              src={`/images/${item.mainImage}`}
+                              alt={altMain}
+                              fill
+                              sizes="(max-width: 768px) 100vw, 33vw"
+                              className="object-cover"
+                              onClick={(e) =>
+                                handleImageClick(e, allImages, 0)
+                              }
+                            />
+                          </div>
                         </div>
                         <div className="md:w-2/3">
-                          <span className="text-red-500 text-sm font-medium">
+                          <time
+                            dateTime={toIsoDate(item.date)}
+                            className="text-red-500 text-sm font-medium"
+                          >
                             {formatDate(item.date)}
-                          </span>
+                          </time>
                           <h3 className="text-2xl md:text-3xl font-bold text-gray-900 mt-1 mb-4">
                             {item.title}
                           </h3>
@@ -187,23 +250,26 @@ export default function NewsSection() {
                       {item.gallery.length > 0 && (
                         <div className="mt-8">
                           <h4 className="text-sm font-semibold text-gray-400 uppercase tracking-wider mb-4">
-                            Galerie
+                            Galerie – {item.title}
                           </h4>
                           <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3">
                             {allImages.map((img, imgIndex) => (
-                              <img
+                              <div
                                 key={imgIndex}
-                                src={img}
-                                alt="Fotografie z události"
-                                className="w-full h-32 md:h-40 object-cover rounded-xl cursor-zoom-in hover:opacity-90 transition-opacity"
+                                className="relative w-full h-32 md:h-40 rounded-xl overflow-hidden cursor-zoom-in hover:opacity-90 transition-opacity"
                                 onClick={(e) =>
-                                  handleImageClick(
-                                    e,
-                                    allImages,
-                                    imgIndex
-                                  )
+                                  handleImageClick(e, allImages, imgIndex)
                                 }
-                              />
+                              >
+                                <Image
+                                  src={img}
+                                  alt={`${item.title} – fotografie č. ${imgIndex + 1} z galerie SDH Pořín`}
+                                  fill
+                                  sizes="(max-width: 640px) 50vw, (max-width: 1024px) 33vw, 25vw"
+                                  className="object-cover"
+                                  loading="lazy"
+                                />
+                              </div>
                             ))}
                           </div>
                         </div>
@@ -211,7 +277,7 @@ export default function NewsSection() {
                     </div>
                   )}
                 </div>
-              </div>
+              </article>
             );
           })}
         </div>

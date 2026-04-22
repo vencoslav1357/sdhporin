@@ -2,9 +2,9 @@
 
 export const aboutData = {
   description: [
-    "SDH Pořín je dobrovolný hasičský sbor založený v roce 1899.",
-    "Od roku 2016 se aktivně věnujeme práci s dětmi a mládeží.",
-    "Pořádáme kulturní akce v obci a účastníme se hasičských soutěží.",
+    "Sbor dobrovolných hasičů Pořín (SDH Pořín) je dobrovolný hasičský sbor založený v roce 1899 v obci Pořín, která je součástí obce Dolní Hořice v okrese Tábor (Jihočeský kraj).",
+    "Od roku 2016 se aktivně věnujeme práci s dětmi a mládeží – mladí hasiči se pravidelně účastní okresních i krajských kol soutěže Plamen a dalších hasičských závodů v požárním sportu.",
+    "Pořádáme řadu kulturních a společenských akcí v obci – masopust, dětský karneval, stavění a kácení máje, divadelní představení a další tradiční události, které spojují místní komunitu.",
   ],
 };
 

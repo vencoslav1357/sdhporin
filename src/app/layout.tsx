@@ -209,6 +209,12 @@ export default function RootLayout({
     <html lang="cs" className={inter.variable}>
       <head>
         <link rel="canonical" href={SITE_URL} />
+        <link
+          rel="preload"
+          as="image"
+          href="/images/logo.png"
+          fetchPriority="high"
+        />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{

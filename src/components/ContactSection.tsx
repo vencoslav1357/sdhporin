@@ -5,7 +5,7 @@ export default function ContactSection() {
     <section
       id="kontakt"
       aria-labelledby="kontakt-heading"
-      className="py-16 md:py-24 bg-gray-50/50"
+      className="py-16 md:py-24 bg-gray-50/50 cv-auto"
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Section header */}

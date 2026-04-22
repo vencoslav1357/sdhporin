@@ -6,15 +6,8 @@ export default function Hero() {
       aria-label="Úvod – SDH Pořín"
       className="relative min-h-[70vh] md:min-h-[80vh] flex items-center justify-center overflow-hidden"
     >
-      {/* Background – plynulý červený gradient do bílé */}
-      <div
-        aria-hidden="true"
-        className="absolute inset-0"
-        style={{
-          background:
-            "linear-gradient(to bottom, #b91c1c 0%, #dc2626 25%, #ef4444 45%, #f87171 60%, #fca5a5 72%, #fecaca 82%, #fee2e2 90%, #ffffff 100%)",
-        }}
-      />
+      {/* Background – plynulý červený gradient do bílé (v CSS třídě pro lepší paint) */}
+      <div aria-hidden="true" className="absolute inset-0 hero-gradient" />
 
       {/* Content */}
       <div className="relative z-10 text-center px-4 sm:px-6 max-w-4xl mx-auto">

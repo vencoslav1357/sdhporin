@@ -54,7 +54,7 @@ export default function EventsSection() {
     <section
       id="akce"
       aria-labelledby="akce-heading"
-      className="py-16 md:py-24 bg-gray-50/50"
+      className="py-16 md:py-24 bg-gray-50/50 cv-auto"
     >
       {sortedEvents.length > 0 && (
         <script

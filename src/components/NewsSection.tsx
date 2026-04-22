@@ -2,8 +2,13 @@
 
 import { useState, useCallback } from "react";
 import Image from "next/image";
+import dynamic from "next/dynamic";
 import { udalosti } from "@data/news";
-import ImageModal from "./ImageModal";
+
+const ImageModal = dynamic(() => import("./ImageModal"), {
+  ssr: false,
+  loading: () => null,
+});
 
 const SITE_URL = "https://sdhporin.cz";
 
@@ -82,7 +87,7 @@ export default function NewsSection() {
     <section
       id="udalosti"
       aria-labelledby="udalosti-heading"
-      className="py-16 md:py-24"
+      className="py-16 md:py-24 cv-auto"
     >
       {sortedNews.length > 0 && (
         <script

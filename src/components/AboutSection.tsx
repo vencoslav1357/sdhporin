@@ -5,7 +5,7 @@ export default function AboutSection() {
     <section
       id="o-nas"
       aria-labelledby="o-nas-heading"
-      className="py-16 md:py-24"
+      className="py-16 md:py-24 cv-auto"
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Section header */}

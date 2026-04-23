@@ -89,14 +89,8 @@ export const metadata: Metadata = {
       "max-snippet": -1,
     },
   },
-  icons: {
-    icon: [
-      { url: "/favicon.ico", sizes: "any" },
-      { url: "/images/logo.png", type: "image/png" },
-    ],
-    shortcut: "/favicon.ico",
-    apple: [{ url: "/images/logo.png", sizes: "180x180", type: "image/png" }],
-  },
+  // Ikony (favicon, apple-icon) generuje Next.js automaticky
+  // ze souborů src/app/icon.png a src/app/apple-icon.png
   manifest: "/manifest.webmanifest",
   formatDetection: {
     email: false,

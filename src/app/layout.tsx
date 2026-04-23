@@ -89,8 +89,17 @@ export const metadata: Metadata = {
       "max-snippet": -1,
     },
   },
-  // Ikony (favicon, apple-icon) generuje Next.js automaticky
-  // ze souborů src/app/icon.png a src/app/apple-icon.png
+  // favicon.ico v public/ s verzí pro cache-bust (prohlížeče cachují favicon agresivně).
+  // Zvyš v=N pokud budeš měnit logo znovu, aby se starý favicon invalidoval.
+  icons: {
+    icon: [
+      { url: "/favicon.ico?v=2", type: "image/x-icon", sizes: "any" },
+      { url: "/icon.png?v=2", type: "image/png", sizes: "512x512" },
+    ],
+    apple: [
+      { url: "/apple-icon.png?v=2", type: "image/png", sizes: "180x180" },
+    ],
+  },
   manifest: "/manifest.webmanifest",
   formatDetection: {
     email: false,

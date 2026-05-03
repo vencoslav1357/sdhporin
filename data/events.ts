@@ -13,25 +13,7 @@ export const pripravovane_akce = [
     //     text: "Tradiční pouť pořádaná v obci Pořín. (testovací text)",
     // },
 
-    {
-        date: {
-            day: 18,
-            month: 4,
-            year: 2026
-        },
-        title: "Hasičská soutěž Mašovice",
-        text: "",
-    },
 
-    {
-        date: {
-            day: 25,
-            month: 4,
-            year: 2026
-        },
-        title: "Hasičská soutěž Mladá Vožice",
-        text: "",
-    },
 
     {
         date: {

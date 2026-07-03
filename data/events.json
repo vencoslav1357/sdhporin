@@ -1,12 +1,29 @@
 [
   {
-    "date": { "day": 23, "month": 5, "year": 2026 },
+    "date": {
+      "day": 23,
+      "month": 5,
+      "year": 2026
+    },
     "title": "Stavění máje",
     "text": ""
   },
   {
-    "date": { "day": 1, "month": 8, "year": 2026 },
+    "date": {
+      "day": 1,
+      "month": 8,
+      "year": 2026
+    },
     "title": "Kácení máje",
     "text": ""
+  },
+  {
+    "date": {
+      "day": 15,
+      "month": 3,
+      "year": 2027
+    },
+    "title": "Testovací akce (smazat)",
+    "text": "Zkouška ukládání z admin panelu."
   }
 ]

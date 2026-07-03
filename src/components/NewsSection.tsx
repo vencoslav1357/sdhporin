@@ -3,12 +3,15 @@
 import { useState, useCallback } from "react";
 import Image from "next/image";
 import dynamic from "next/dynamic";
-import { udalosti } from "@data/news";
+import udalostiData from "@data/news.json";
+import type { NewsItem } from "@data/types";
 
 const ImageModal = dynamic(() => import("./ImageModal"), {
   ssr: false,
   loading: () => null,
 });
+
+const udalosti: NewsItem[] = udalostiData;
 
 const SITE_URL = "https://sdhporin.cz";
 

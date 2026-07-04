@@ -1,20 +1,6 @@
 [
   {
     "date": {
-      "day": 10,
-      "month": 6,
-      "year": 2026
-    },
-    "title": "test",
-    "mainImage": "upload/2026/1783191832306-brain.jpeg",
-    "preview": "kratky text",
-    "fullText": "dlouhy text",
-    "gallery": [
-      "upload/2026/1783191843262-google-home-logo.jpeg"
-    ]
-  },
-  {
-    "date": {
       "day": 28,
       "month": 2,
       "year": 2026

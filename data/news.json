@@ -1,0 +1,53 @@
+[
+  {
+    "date": { "day": 4, "month": 10, "year": 2025 },
+    "title": "Podzimní plamen",
+    "mainImage": "terka/plamen1.jpeg",
+    "preview": "",
+    "fullText": "Dne 4. října 2025 jsme se zúčastnili s dětmi podzimního kola plamenu v Ústrašicích. Všechny děti byly šikovné a běh zvládly. Nejlépe se umístila přípravka, která vybojovala krásné 1. místo. V kategorii mladších se naši umístili, i přes početnou konkurenci 34 týmů, na 9. místě. A družstvo starších na místě 18. z celkových 28.",
+    "gallery": ["terka/plamen2.jpeg"]
+  },
+  {
+    "date": { "day": 31, "month": 1, "year": 2026 },
+    "title": "Dětský karneval",
+    "mainImage": "terka/karneval2.jpeg",
+    "preview": "",
+    "fullText": "Poslední lednový den se uskutečnil tradiční dětský karneval. O program a zábavu na celé odpoledne se postarala kapela Jezevci. Měli jsme možnost vidět spoustu krásných kostýmů. Celé odpoledne bylo ve znamení dětské radosti a už se těšíme na příští rok.",
+    "gallery": [
+      "terka/karneval3.jpeg",
+      "terka/karneval4.jpeg",
+      "terka/karneval12.jpeg",
+      "terka/karneval6.jpeg",
+      "terka/karneval11.jpeg",
+      "terka/karneval13.jpeg",
+      "terka/karneval14.jpeg",
+      "terka/karneval8.jpeg",
+      "terka/karneval9.jpeg",
+      "terka/karneval16.jpeg",
+      "terka/karneval17.jpeg"
+    ]
+  },
+  {
+    "date": { "day": 14, "month": 2, "year": 2026 },
+    "title": "Masopust",
+    "mainImage": "terka/masopust1.jpeg",
+    "preview": "",
+    "fullText": "V sobotu 14. února prošel vesnicí masopustní průvod plný originálních a nápaditých masek. Celé odpoledne nás doprovázela kapela, která zahrála u každého domu podle přání a o dobrou náladu nebyla nouze. I přes ne úplně příznivé počasí, se letošní masopust vydařil a už teď jsme zvědaví, kdo s jakou maskou překvapí příští rok.",
+    "gallery": [
+      "terka/masopust2.jpeg",
+      "terka/masopust3.jpeg",
+      "terka/masopust4.jpeg",
+      "terka/masopust5.jpeg",
+      "terka/masopust6.jpeg",
+      "terka/masopust7.jpeg"
+    ]
+  },
+  {
+    "date": { "day": 28, "month": 2, "year": 2026 },
+    "title": "Divadlo",
+    "mainImage": "terka/divadlo1.jpeg",
+    "preview": "",
+    "fullText": "Poslední únorový večer nám zpříjemnila divadelní hra, Přelet nad kuřecím řízkem, kterou představil DS VOŽIVOT Mladá Vožice. Účast byla hojná a divadlo se líbilo.",
+    "gallery": ["terka/divadlo2.jpeg", "terka/divadlo3.jpeg"]
+  }
+]

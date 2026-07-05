@@ -1,6 +1,25 @@
 [
   {
     "date": {
+      "day": 4,
+      "month": 7,
+      "year": 2026
+    },
+    "title": "Srandamač Dolní Hořice",
+    "mainImage": "upload/2026/1783279579254-img-20260704-wa0040.jpeg",
+    "preview": "",
+    "fullText": "V sobotu 4. července 2026 se 2 dětské a 3 dospělácké týmy našich hasičů zůčastnily tradičního Srandamače v Dolních Hořicích. Děti to zvládly na jedničku a moc si to užily. Ženský tým, i přes oslabení, skončil na krásném 3. místě. Muži II s mašinou PS8 vybojovali 2. místo. Muži I bojovali s vodou a skončili na místě 12.",
+    "gallery": [
+      "upload/2026/1783280226224-img-20260704-wa0022.jpeg",
+      "upload/2026/1783280293603-img-20260705-wa0014.jpeg",
+      "upload/2026/1783280227984-img-20260704-wa0031.jpeg",
+      "upload/2026/1783280252756-img-20260705-wa0035.jpeg",
+      "upload/2026/1783280254284-img-20260705-wa0016.jpeg",
+      "upload/2026/1783280338178-img-20260705-wa0027.jpeg"
+    ]
+  },
+  {
+    "date": {
       "day": 28,
       "month": 2,
       "year": 2026

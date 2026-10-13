@@ -42,10 +42,12 @@ export default function ImageModal({
     };
 
     document.body.style.overflow = "hidden";
+    document.documentElement.classList.add("gallery-open");
     window.addEventListener("keydown", handleKeyDown);
 
     return () => {
       document.body.style.overflow = "";
+      document.documentElement.classList.remove("gallery-open");
       window.removeEventListener("keydown", handleKeyDown);
     };
   }, [onClose, showPrev, showNext, images.length]);

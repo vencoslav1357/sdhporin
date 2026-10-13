@@ -77,3 +77,11 @@ html {
   content-visibility: auto;
   contain-intrinsic-size: 800px;
 }
+
+/* Skryj navigaci při otevřené galerii */
+html.gallery-open nav {
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.2s ease;
+}
+

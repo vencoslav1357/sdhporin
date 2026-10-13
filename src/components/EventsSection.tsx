@@ -1,4 +1,7 @@
-import { pripravovane_akce } from "@data/events";
+import pripravovaneAkceData from "@data/events.json";
+import type { EventItem } from "@data/types";
+
+const pripravovane_akce: EventItem[] = pripravovaneAkceData;
 
 const SITE_URL = "https://sdhporin.cz";
 

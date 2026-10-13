@@ -1,6 +1,6 @@
 import { MetadataRoute } from "next";
-import { udalosti } from "@data/news";
-import { pripravovane_akce } from "@data/events";
+import udalosti from "@data/news.json";
+import pripravovane_akce from "@data/events.json";
 
 const SITE_URL = "https://sdhporin.cz";
 

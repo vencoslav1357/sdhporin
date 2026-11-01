@@ -1,6 +1,15 @@
 [
   {
     "date": {
+      "day": 21,
+      "month": 11,
+      "year": 2026
+    },
+    "title": "Divadlo",
+    "text": "Srdečně Vás zveme na divadlo do naší Pořínské hospody."
+  },
+  {
+    "date": {
       "day": 23,
       "month": 1,
       "year": 2027

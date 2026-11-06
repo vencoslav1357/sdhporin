@@ -57,6 +57,14 @@ export default function Footer() {
               </li>
               <li>
                 <a
+                  href="#dotace"
+                  className="hover:text-white transition-colors"
+                >
+                  Dotace
+                </a>
+              </li>
+              <li>
+                <a
                   href="#kontakt"
                   className="hover:text-white transition-colors"
                 >

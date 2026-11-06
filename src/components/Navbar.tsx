@@ -8,6 +8,7 @@ const navLinks = [
   { href: "#udalosti", label: "Události" },
   { href: "#akce", label: "Akce" },
   { href: "#o-nas", label: "O nás" },
+  { href: "#dotace", label: "Dotace" },
   { href: "#kontakt", label: "Kontakt" },
 ];
 

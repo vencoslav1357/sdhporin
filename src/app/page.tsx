@@ -3,6 +3,7 @@ import Hero from "@/components/Hero";
 import NewsSection from "@/components/NewsSection";
 import EventsSection from "@/components/EventsSection";
 import AboutSection from "@/components/AboutSection";
+import GrantSection from "@/components/GrantSection";
 import ContactSection from "@/components/ContactSection";
 import Footer from "@/components/Footer";
 
@@ -39,6 +40,12 @@ const breadcrumbSchema = {
     {
       "@type": "ListItem",
       position: 5,
+      name: "Dotace",
+      item: `${SITE_URL}/#dotace`,
+    },
+    {
+      "@type": "ListItem",
+      position: 6,
       name: "Kontakt",
       item: `${SITE_URL}/#kontakt`,
     },
@@ -59,6 +66,7 @@ export default function Home() {
           <NewsSection />
           <EventsSection />
           <AboutSection />
+          <GrantSection />
           <ContactSection />
         </main>
         <Footer />
